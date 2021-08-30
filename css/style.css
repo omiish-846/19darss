@@ -1,0 +1,371 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+ul{
+    list-style: none;    
+}
+a{
+    text-decoration: none;
+}
+
+body{
+   
+    font-family: sans-serif;
+    background: #F2F2F2;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+
+}
+.nav-area{
+    width: 1300px;
+height: 70px;
+z-index:1;
+display: flex;
+justify-content:space-between;
+margin: auto;
+position: relative;
+right: 80px;
+background-color: aqa;
+}
+
+.nav{
+  
+    position: relative;
+    left: 470px;
+    height: 50px;
+  
+}
+section{
+ 
+    margin: auto;
+    overflow: hidden;
+   
+}
+.box{
+    background:linear-gradient(#504A93
+ 100%,
+ #413E65
+ 100%
+ );
+ height: 650px;
+}
+.nav { 
+    display: flex;
+  
+}
+.nav li{
+    position: relative;
+    right: 90px;
+    top: 15px;
+    margin: 0 15px;
+    color: black;
+}
+.nav li a:hover{
+    color: coral;
+}
+
+.nav li a{
+    color:    rgba(255, 255, 255, 0.692);
+    transition: 1s;
+}
+
+.buttom{
+    width: 140px;
+    height: 40px;
+    background-color:red;
+    position: relative;
+   top: 5px;
+
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 500;
+    border: 3px;
+    transition: 1s;
+    border-radius: 5px;
+}
+.buttom:hover{
+    background-color:blue;
+    color: white;
+}
+
+
+
+
+
+.senter{
+    width:870px;
+    height: 500px;
+
+    margin: auto;
+    position: relative;
+    top: 50px;
+}
+
+.h1-boxx{
+    font-family:monospace;
+    width: 430px;
+    height: 200px;
+
+    position: relative;
+   top: 100px;
+
+}
+.h1-boxx h1{
+    font-size: 47px;
+    color:#fff;
+}
+.h1-boxx p{
+    line-height: 28px;
+    position: relative;
+    top: 15px;
+    
+    color: rgba(255, 255, 255, 0.527);
+}
+.iphone-3{
+    width: 650px;
+    position: relative;
+   left: 300px;
+   bottom: 300px;
+}
+
+.h6cha{
+    position: relative;
+   top: 50px;
+    color: white;
+}
+.h6cha a{
+    color: rgba(255, 255, 255, 0.527);
+    transition: 1.5s;
+}
+.h6cha a:hover{
+    color: red;
+}
+.buttom-m{
+    width: 150px;
+    height: 45px;
+    background-color:red;
+    position: relative;
+    top: 35px;
+    
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 500;
+    border: 3px;
+    transition: 1s;
+    border-radius: 10px;
+}
+.buttom-m:hover{
+    background-color:blue;
+    color: white;
+}
+
+.nav_text{
+    color: white;
+}
+
+.ima{
+    width: 40px;
+    margin-bottom: 30px;
+}
+
+.main_opshi{
+    display: flex;
+    margin-top: 160px;
+}
+
+.h1{
+    margin-bottom: 20px;
+    font-size: 25px;
+   font-weight: 800;
+    word-spacing: 5px;
+    transition: .5s;
+}
+p{
+    font-size: 15px;
+    font-weight: 300;
+    word-spacing: 10px;
+}
+.imag{
+    margin-top: 100px;
+    width: 1140px;
+}
+
+
+.container{
+    position: relative;
+    
+}
+
+.display{
+    position: relative;
+    display: flex;
+    width: 1170px;
+    height: 700px;
+    margin-bottom: 100px;
+  
+    top: 100px;
+
+   
+}
+
+.main3{
+    position: absolute;
+    bottom: 100px;
+    right: 700px;
+    left: 10px;
+    
+}
+
+.app{
+    position: absolute;
+    left: 550px;
+    width: 600px;
+}
+
+.make{
+    font-size: 40px;
+    right: 200px;
+    bottom: -300px;
+    
+     
+}
+
+.pi{
+    font-size: 20px;
+    margin-top: 20px;
+    word-spacing: 20px;
+}
+
+.icon{
+    width: 30px;
+    margin-top: 50px;
+}
+
+.html{
+    display: flex;
+
+}
+
+.htmll{
+    display: flex;
+    font-weight: 900;
+    font-size: 15px;
+}
+
+.lins{
+    margin-left: 10px;
+    font-weight: 900;
+    transition: .5s;
+}
+
+.lina{
+    font-weight: 900;
+   transition: .5s;
+}
+
+.line{
+    margin-left: 10px;
+    margin-bottom: 100px;
+    font-weight: 900;
+    transition: .5s;
+}
+
+.displayi{
+    display: flex;
+    margin-bottom: 100px;
+    width: 1170px;
+   
+    background-color: white;
+   
+   
+}
+
+.yozuvi{
+    margin-top: 100px;
+    font-size: 40px;
+}
+.cus{
+    letter-spacing: -0.656526px;
+    font-size: 20px;
+    word-spacing: 10px;
+    font-weight: 300;
+    margin-top: 50px;
+}
+
+.faster{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    transition: .5s;
+}
+
+.linki{
+    margin-top: 80px;
+    display: flex;
+}
+
+.lots{
+    margin-left: 50px;
+    font-size: 15px;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.h1:hover{
+    color: red;
+}
+
+
+
+.lin:hover{
+    color: red;
+}
+
+.lins:hover{
+    color: red;
+}
+.line:hover{
+    color: red;
+}
+.lina:hover{
+    color: red;
+}
+
+.lin{
+    transition: .5s;
+}
+
+
+
+.faster:hover{
+    color: red;
+}
+
+
+.title_love,.love_subtext{
+text-align: center;
+}
+
+.
